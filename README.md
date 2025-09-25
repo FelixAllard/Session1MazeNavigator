@@ -12,6 +12,7 @@ Well, congratulations, sweet summer child, because this is that someone.
 ## ⚡ Features ⚡
 
 - Finds mazes. Like, literally.
+- Follows instructions
 - Avoids walls? Sometimes. Depends on mood.
 - Can *probably* find the shortest path. Or the longest. Who’s counting?
 - Super extra spaghetti code energy.
