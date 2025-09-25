@@ -2,30 +2,15 @@
 // Created by xilef on 9/25/2025.
 //
 
-#include "NodeList.h"
+#include "../NodeList.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 
 ///
 ///@def Simple Coordinate structure
-typedef struct {
-    int x;
-    int y;
-} Coordinate;
 
-///
-/*
-///@struct Node
-///@brief This is a simple Structure. It holds the coordinate and the next node. This way they can form a chain and create a List.
-///@
-///@author {Felix}
-///@date {9/25/2025}
-typedef struct Node {
-    Coordinate coord;
-    struct Node* next;
-} Node;
-*/
+
 
 /// @brief This function adds a new Coordinate to the coordinate List. The coordinate will be at the end of the List.
 /// @param x X Coordinate of the coordinate to add to the List

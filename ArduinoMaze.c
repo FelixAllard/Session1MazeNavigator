@@ -3,7 +3,7 @@
 //
 
 #include "ArduinoMaze.h"
-#include "CurrentTile.h"
+#include "Struct/CurrentTile.h"
 
 #include "lib/LibRobUS/src/LibRobus.h"
 
