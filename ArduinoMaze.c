@@ -7,6 +7,8 @@
 
 #include "lib/LibRobUS/src/LibRobus.h"
 #include "PidTest.h"
+#include <Arduino.h>
+
 
 #define ROWS 3
 #define COLS 7
