@@ -22,5 +22,6 @@ Well, congratulations, sweet summer child, because this is that someone.
 ## 🛠 Installation (or summoning ritual) 🛠
 
 1. Clone this bad boy:
+2. jhsjahshja
 ```bash
 git clone https://github.com/your-username/MazeFinder9000.git
