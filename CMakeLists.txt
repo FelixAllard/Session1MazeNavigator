@@ -9,4 +9,5 @@ add_library(MazeProjectSherbrookeS1 STATIC CppEntrypoint/main.cpp
         CurrentTile.c
         CurrentTile.h
         NodeList.c
-        NodeList.h)
+        NodeList.h
+        PidTest.c)

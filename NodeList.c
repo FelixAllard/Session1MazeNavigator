@@ -15,6 +15,7 @@ typedef struct {
 } Coordinate;
 
 ///
+/*
 ///@struct Node
 ///@brief This is a simple Structure. It holds the coordinate and the next node. This way they can form a chain and create a List.
 ///@
@@ -24,6 +25,7 @@ typedef struct Node {
     Coordinate coord;
     struct Node* next;
 } Node;
+*/
 
 /// @brief This function adds a new Coordinate to the coordinate List. The coordinate will be at the end of the List.
 /// @param x X Coordinate of the coordinate to add to the List

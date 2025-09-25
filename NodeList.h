@@ -11,7 +11,7 @@ typedef struct {
     int y;
 } Coordinate;
 
-// Node struct
+
 typedef struct Node {
     Coordinate coord;
     struct Node* next;
