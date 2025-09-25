@@ -10,4 +10,5 @@ add_library(MazeProjectSherbrookeS1 STATIC CppEntrypoint/main.cpp
         Struct/CurrentTile.h
         Struct/NodeList.c
         Struct/NodeList.h
-        PidTest.c)
+        PidTest.c
+        PidTest.h)

@@ -6,6 +6,7 @@
 #include "Struct/CurrentTile.h"
 
 #include "lib/LibRobUS/src/LibRobus.h"
+#include "PidTest.h"
 
 #define ROWS 3
 #define COLS 7
@@ -26,6 +27,7 @@ int facingDirection = 1;
 ///@file {main.cpp}
 void SetupMaze() {
     BoardInit();
+
 }
 
 ///@def The loop function of Arduino

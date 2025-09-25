@@ -2,7 +2,7 @@
 // Created by xilef on 9/25/2025.
 //
 
-#include "../NodeList.h"
+#include "./NodeList.h"
 
 #include <stdio.h>
 #include <stdlib.h>

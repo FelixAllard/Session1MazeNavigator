@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "PidTest.h"
 #include <math.h>
-
 // Déclarations des constantes
 #define LEFT 0
 #define RIGHT 1
