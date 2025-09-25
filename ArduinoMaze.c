@@ -23,7 +23,9 @@ void LoopMaze() {
 }
 
 void Advance() {
-
+    sd1 = MOTOR_SetSpeed(0,0.5);
+    sd2 = MOTOR_SetSpeed(1,0.5);
+    return 0;
 }
 void Turn() {
 
