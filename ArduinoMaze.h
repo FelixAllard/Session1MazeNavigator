@@ -6,9 +6,10 @@
 #define MAZEPROJECTSHERBROOKES1_ENTRYPOINTCARDUINO_H
 
 
-void setup();
 
-void loop();
+void SetupMaze();
+
+void LoopMaze();
 
 
 #endif //MAZEPROJECTSHERBROOKES1_ENTRYPOINTCARDUINO_H

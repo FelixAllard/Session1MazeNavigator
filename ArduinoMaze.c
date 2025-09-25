@@ -3,14 +3,33 @@
 //
 
 #include "ArduinoMaze.h"
+#include "CurrentTile.h"
 
 #include "lib/LibRobUS/src/LibRobus.h"
 
+#define ROWS 3
+#define COLS 7
 
-void setup() {
+_Bool tileMap[ROWS][COLS] = {0}; //All variable initialized as false
+
+
+void SetupMaze() {
+    BoardInit();
+}
+
+
+void LoopMaze() {
 
 }
 
-void loop() {
+void Advance() {
 
 }
+void Turn() {
+
+}
+
+typedef struct {
+    int x;
+    int y;
+} Coordinate;

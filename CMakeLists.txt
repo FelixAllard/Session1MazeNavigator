@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_library(MazeProjectSherbrookeS1 STATIC CppEntrypoint/main.cpp
         ArduinoMaze.c
-        ArduinoMaze.h)
+        ArduinoMaze.h
+        CurrentTile.c
+        CurrentTile.h
+        NodeList.c
+        NodeList.h)

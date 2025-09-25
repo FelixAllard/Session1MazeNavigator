@@ -1,16 +1,16 @@
-#include "../main.h"
-
 #include <iostream>
 
+//Read as C
 extern "C" {
 #include "../ArduinoMaze.h"
 }
 
-void setup() {
-    pinMode(13, OUTPUT);
+void Setup() {
+    //We are leaving C++
+    SetupMaze();
 }
 
-void loop() {
-    blink_led_c();   // call your C function
-    delay(500);
+void Loop() {
+    //We are Leaving C++
+    LoopMaze();
 }
