@@ -46,8 +46,17 @@ void Advance() {
 
 ///
 /// @param directionToFaceAfter Where the Robot will be facing after
-void Turn(int directionToFaceAfter) {
 
+void Turn(int directionToFaceAfter) {
+    if directionToFaceAfter// = 0 (left);
+        MOTOR_SetSpeed(0,-0.5);
+        MOTOR_SetSpeed(1,0.5);
+    // resetter à vitesse 0 après turn de 90 deg?
+
+    if directionToFaceAfter// = 1 (right);
+        MOTOR_SetSpeed(0,0.5);
+        MOTOR_SetSpeed(1,-0.5);
+    // resetter à vitesse 0 après turn de 90 deg?
 }
 
 typedef struct {
